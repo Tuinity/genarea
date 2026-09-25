@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "genarea",
+    "version": "${version}",
+    "name": "GenArea",
+    "description": "Adds a command to generate an area",
+    "authors": [
+        "Spottedleaf"
+    ],
+    "contact": {},
+    "license": "GPL-3.0-only",
+    "icon": "assets/genarea/icon.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [
+        "genarea.mixins.json"
+    ],
+    "accessWidener": "genarea.accesswidener",
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": "26.3"
+    }
+}

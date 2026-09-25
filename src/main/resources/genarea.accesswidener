@@ -1,0 +1,6 @@
+accessWidener v1 official
+
+accessible field net/minecraft/server/MinecraftServer emptyTicks I
+accessible class net/minecraft/server/level/ServerChunkCache$MainThreadExecutor
+accessible field net/minecraft/server/level/ServerChunkCache mainThreadProcessor Lnet/minecraft/server/level/ServerChunkCache$MainThreadExecutor;
+accessible method net/minecraft/server/level/ServerChunkCache getChunkFutureMainThread (IILnet/minecraft/world/level/chunk/status/ChunkStatus;Z)Ljava/util/concurrent/CompletableFuture;
