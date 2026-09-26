@@ -34,7 +34,7 @@ fabricModJson {
     accessWidener = "genarea.accesswidener"
     depends("fabricloader", ">=${libs.versions.fabric.loader.get()}")
     depends("minecraft", ">=${libs.versions.minecraft.get()}")
-    depends("fabric-api")
+    depends("fabric-command-api-v2", "*")
     entrypoint("main", "ca.spottedleaf.genarea.GenAreaMod")
 }
 
