@@ -2,7 +2,6 @@ import xyz.jpenilla.resourcefactory.fabric.Environment
 
 plugins {
     id("xyz.jpenilla.quiet-fabric-loom")
-    id("maven-publish")
     alias(libs.plugins.indra)
     alias(libs.plugins.indraGit)
     alias(libs.plugins.resourceFactoryFabricConvention)
