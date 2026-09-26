@@ -31,10 +31,11 @@ fabricModJson {
     license("GPL-3.0-only")
     icon("assets/genarea/icon.png")
     environment = Environment.ANY
-    mixin("genarea.mixins.json")
     accessWidener = "genarea.accesswidener"
     depends("fabricloader", ">=${libs.versions.fabric.loader.get()}")
     depends("minecraft", ">=${libs.versions.minecraft.get()}")
+    depends("fabric-api")
+    entrypoint("main", "ca.spottedleaf.genarea.GenAreaMod")
 }
 
 loom {
