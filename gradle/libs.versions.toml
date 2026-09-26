@@ -1,0 +1,14 @@
+[versions]
+minecraft = "26.3"
+fabric-loader = "0.19.5"
+indra = "4.1.0"
+resource-factory = "1.4.0"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+
+[plugins]
+indra = { id = "net.kyori.indra", version.ref = "indra" }
+indraGit = { id = "net.kyori.indra.git", version.ref = "indra" }
+resourceFactoryFabricConvention = { id = "xyz.jpenilla.resource-factory-fabric-convention", version.ref = "resource-factory" }
